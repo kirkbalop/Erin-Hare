@@ -1,8 +1,8 @@
 import "./App.css";
-import Nav from "./Components/Nav";
+import NaviBar from "./Components/Nav";
 
 function App() {
-  return <Nav></Nav>;
+  return <NaviBar></NaviBar>;
 }
 
 export default App;

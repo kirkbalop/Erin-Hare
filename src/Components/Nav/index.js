@@ -1,21 +1,23 @@
 import React from "react";
-import { Navbar, Form } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 
-function Nav(props) {
+function NaviBar(props) {
   return (
-    <Navbar bg="light">
-      <Navbar.Brand href="#home" id="logoNav">
-        <img
-          src={process.env.PUBLIC_URL + `/assets/images/EH-logo.png`}
-          width="120"
-          height="120"
-          className="d-inline-block align-top"
-          alt="Erin Hare logo"
-        />{" "}
-        <span id="logoNavText">Erin Hare</span>
-      </Navbar.Brand>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Nav className="container-fluid">
+        <Navbar.Brand href="#home" id="logoNav">
+          <img
+            src={process.env.PUBLIC_URL + `/assets/images/EH-logo.png`}
+            width="60"
+            height="60"
+            className="d-inline-block align-top"
+            alt="Erin Hare logo"
+          />{" "}
+          Erin Hare
+        </Navbar.Brand>
+      </Nav>
     </Navbar>
   );
 }
 
-export default Nav;
+export default NaviBar;
