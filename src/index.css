@@ -12,9 +12,10 @@ code {
     monospace;
 }
 
-#logonav {
+#logonav img {
   font-family: "Sacramento", cursive;
-  /* text-decoration: none; */
+  text-decoration: none;
   font-size: 40px;
   color: black;
+  border-radius: 15px;
 }

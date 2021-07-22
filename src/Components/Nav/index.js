@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 function NaviBar(props) {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Nav className="container-fluid">
         <Navbar.Brand href="#home" id="logoNav">
           <img
