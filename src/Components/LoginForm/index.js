@@ -1,6 +1,6 @@
 import React from "react";
 
-function ApptForm(props) {
+export default function ApptForm(props) {
   return (
     <form>
       <label htmlFor="Name">Name</label>
