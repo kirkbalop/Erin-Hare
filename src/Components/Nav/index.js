@@ -8,12 +8,11 @@ function NaviBar(props) {
         <Navbar.Brand href="#home" id="logoNav">
           <img
             src={process.env.PUBLIC_URL + `/assets/images/EH-logo.png`}
-            width="60"
-            height="60"
+            width="75"
+            height="75"
             className="d-inline-block align-top"
             alt="Erin Hare logo"
           />{" "}
-          Erin Hare
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
