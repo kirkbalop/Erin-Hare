@@ -21,11 +21,11 @@ function NaviBar(props) {
             <Nav.Link href="#features">Services</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item href="#action/3.1">Contact</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Instagram</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                We'll figure this one out
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link

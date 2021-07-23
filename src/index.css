@@ -19,3 +19,9 @@ code {
   color: black;
   border-radius: 15px;
 }
+
+.btn {
+  background-color: darkgoldenrod;
+  width: 1vw;
+  color: white;
+}
